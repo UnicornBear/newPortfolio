@@ -1,0 +1,156 @@
+h2, a{
+  font-family: 'Lato', sans-serif;
+}
+
+h2{
+  font-size: 50px !important;
+}
+
+#portfolioTitle {
+    color: white;
+}
+
+p, h3{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+#full-page{
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+#home {
+/*   background-color: #00B274; */
+
+  padding-top: 200px;
+  background-image: url("MountainClouds.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#aboutMe {
+    background-image: url("https://images.pexels.com/photos/684387/pexels-photo-684387.jpeg?cs=srgb&dl=adult-agent-banking-684387.jpg&fm=jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#myInfo {
+    font-family: 'times new roman', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#portfolio{
+    background-image: url("https://images.pexels.com/photos/2194062/pexels-photo-2194062.jpeg?cs=srgb&dl=code-coder-codes-2194062.jpg&fm=jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* opacity: .5; */
+}
+
+
+#contact {
+  background-image: url("photoContact.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* padding-left: 50% !important; */
+}
+
+nav {
+  opacity: 0.9;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+section{
+  padding: 90px;
+  height: 900px;
+  text-align: center !important;
+}
+
+.profilepic {
+  border-radius: 80%;
+  max-height: 360px;
+}
+
+.aboutPic {
+    border-radius: 80%;
+    max-height: 200px;
+  }
+
+.thumbnail img{
+  max-height: 200px;
+}
+
+.contact-font{
+  color: black;
+}
+
+
+/*mobile friendly*/
+@media screen and (max-width: 760px) {
+  #home{
+    padding-top: 100px !important;
+  }
+
+  #aboutMe {
+    height: 1400px !important;  
+  }
+
+  #portfolio{
+    padding-top: 50px !important;
+    height: 1200px !important;
+  }
+  
+  #contact{
+    text-align: center !important;
+    padding-left: 90px !important;
+    padding-top: 70px !important;
+  }
+
+  .contact-font{
+    text-shadow: 1px 1px 2px black;
+  }
+  }
+
+
+  
+@media screen and (max-width: 1024px) {
+  #home{
+    padding-top: 100px !important;
+  }
+  
+  #aboutMe {
+    height: 1800px !important;  
+  }
+
+  #portfolio{
+    padding-top: 50px !important;
+    height: 1600px !important;
+  }
+  
+  #contact{
+    text-align: center !important;
+    padding-left: 90px !important;
+    padding-top: 70px !important;
+  }
+
+  .contact-font{
+    text-shadow: 1px 1px 2px black;
+  }
+
+  /* .thumbnail{
+    width: 300px;
+  }
+
+  .col-md-6{
+    padding-left: 155px;
+  } */
+}
