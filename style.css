@@ -108,37 +108,14 @@ section{
   color: black;
 }
 
+.contactIcon {
+  height: 100px;
+}
+
+
 
 /*mobile friendly*/
-@media screen and (max-width: 760px) {
-  #home{
-    padding-top: 100px !important;
-  }
 
-  #aboutMe {
-    height: 1400px !important;  
-  }
-
-  #portfolio{
-    padding-top: 50px !important;
-    height: 1200px !important;
-  }
-  
-  #contact{
-    text-align: center !important;
-    padding-left: 90px !important;
-    padding-top: 70px !important;
-  }
-
-  .contact-font{
-    text-shadow: 1px 1px 2px black;
-  }
-
-  .profilepic {
-    border-radius: 80%;
-    max-height: 80px;
-  }
-  }
 
 
   
@@ -175,7 +152,36 @@ section{
   }
 
   .profilepic {
-    border-radius: 80%;
-    max-height: 240px;
+    max-height: 225px;
   }
 }
+
+
+@media screen and (max-width: 760px) {
+  #home{
+    padding-top: 100px !important;
+  }
+
+  #aboutMe {
+    height: 1400px !important;  
+  }
+
+  #portfolio{
+    padding-top: 50px !important;
+    height: 1200px !important;
+  }
+  
+  #contact{
+    text-align: center !important;
+    padding-left: 90px !important;
+    padding-top: 70px !important;
+  }
+
+  .contact-font{
+    text-shadow: 1px 1px 2px black;
+  }
+
+  .profilepic {
+    max-height: 125px;
+  }
+  }
