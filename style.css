@@ -1,19 +1,19 @@
 h2, a{
-  font-family: 'Lato', sans-serif;
+  font-family: 'impact', sans-serif;
 }
 
 h2{
   font-size: 50px !important;
 }
 
-#portfolioTitle {
-    color: white;
-}
-
-p, h3{
-  font-family: 'Raleway', sans-serif;
+p{
+  font-family: 'trajan', sans-serif;
   font-size: 20px;
   color: white;
+}
+
+h3 {
+    color: black;
 }
 
 #full-page{
@@ -26,9 +26,13 @@ p, h3{
     padding-left: 0px !important;
 }
 
-#home {
-/*   background-color: #00B274; */
+#myInfo {
+    font-family: 'times new roman', sans-serif;
+    font-size: 20px;
+    color: rgb(87, 37, 37);
+}
 
+#home {
   padding-top: 200px;
   background-image: url("MountainClouds.jpg");
   background-size: cover;
@@ -36,23 +40,34 @@ p, h3{
 }
 
 #aboutMe {
+    position: relative;
+}
+#aboutMe:before{
     background-image: url("https://images.pexels.com/photos/684387/pexels-photo-684387.jpeg?cs=srgb&dl=adult-agent-banking-684387.jpg&fm=jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    
+    content: "";
+    z-index: -1;
+    position: absolute;
+    opacity: 0.2;
+    top: 0; bottom: 0; left: 0; right: 0;
+    background-size: cover;
 }
 
-#myInfo {
-    font-family: 'times new roman', sans-serif;
-    font-size: 20px;
-    color: white;
-}
+
 
 #portfolio{
+    position: relative;
+}
+
+#portfolio:before{
     background-image: url("https://images.pexels.com/photos/2194062/pexels-photo-2194062.jpeg?cs=srgb&dl=code-coder-codes-2194062.jpg&fm=jpg");
+    content: "";
+    z-index: -1;
+    position: absolute;
+    opacity: 0.5;
+    top: 0; bottom: 0; left: 0; right: 0;
     background-size: cover;
-    background-repeat: no-repeat;
-    /* opacity: .5; */
 }
 
 
@@ -81,7 +96,7 @@ section{
 }
 
 .aboutPic {
-    border-radius: 80%;
+    border-radius: 25%;
     max-height: 200px;
   }
 
@@ -118,6 +133,11 @@ section{
   .contact-font{
     text-shadow: 1px 1px 2px black;
   }
+
+  .profilepic {
+    border-radius: 80%;
+    max-height: 80px;
+  }
   }
 
 
@@ -146,11 +166,16 @@ section{
     text-shadow: 1px 1px 2px black;
   }
 
-  /* .thumbnail{
+  .thumbnail{
     width: 300px;
   }
 
   .col-md-6{
     padding-left: 155px;
-  } */
+  }
+
+  .profilepic {
+    border-radius: 80%;
+    max-height: 240px;
+  }
 }
