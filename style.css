@@ -1,13 +1,8 @@
-h2, a{
-  font-family: 'impact', sans-serif;
-}
-
 h2{
   font-size: 50px !important;
 }
 
 p{
-  font-family: 'trajan', sans-serif;
   font-size: 20px;
   color: white;
 }
@@ -27,7 +22,6 @@ h3 {
 }
 
 #myInfo {
-    font-family: 'times new roman', sans-serif;
     font-size: 20px;
     color: rgb(87, 37, 37);
 }
@@ -75,7 +69,6 @@ h3 {
   background-image: url("photoContact.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  /* padding-left: 50% !important; */
 }
 
 nav {
@@ -163,12 +156,12 @@ section{
   }
 
   #aboutMe {
-    height: 1400px !important;  
+    height: 2000px !important;  
   }
 
   #portfolio{
     padding-top: 50px !important;
-    height: 1200px !important;
+    height: 2100px !important;
   }
   
   #contact{
