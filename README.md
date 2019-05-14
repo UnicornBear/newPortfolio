@@ -10,10 +10,10 @@ This is my new (05.12.2019) personal webPage for personal and business.
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ## Built With
-* [HTML](https://devdocs.io/html/) - The web framework used
-* [BOOTSTRAP](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - The web framework used
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - The web framework used
-* [JavaScript | Jqueury](https://maven.apache.org/) - Depende
+* [HTML](https://devdocs.io/html/)
+* [BOOTSTRAP](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [JavaScript | Jqueury](http://learn.jquery.com/using-jquery-core/document-ready/)
 
 ## Authors
 
