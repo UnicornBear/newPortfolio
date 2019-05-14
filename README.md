@@ -1,12 +1,16 @@
 # myPersonal Web Page
-https://unicornbear.github.io/newPortfolio/
 
+* https://unicornbear.github.io/newPortfolio/
 * Week 10 - rebuild of myPersonal WebPage
+
 This is my new (05.12.2019) personal webPage for personal and business.  
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The webpage is a single HTML file, using sepereate <container> for each profile group.  Each group is part of the navBar and will be directed to each section.  
+
+## Future Updates
+
 
 ## Built With
 * [HTML](https://devdocs.io/html/)
