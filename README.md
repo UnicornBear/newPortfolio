@@ -3,7 +3,7 @@
 * https://unicornbear.github.io/newPortfolio/
 * Week 10 - rebuild of myPersonal WebPage
 
-This is my new (05.12.2019) personal webPage for personal and business.  
+This is my new personal webPage for personal and business.
 
 ## Getting Started
 
