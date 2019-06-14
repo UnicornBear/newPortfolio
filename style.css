@@ -52,6 +52,7 @@ h3 {
 
 #portfolio{
     position: relative;
+    height: 1200px;
 }
 
 #portfolio:before{
