@@ -1,5 +1,6 @@
 h2{
   font-size: 50px !important;
+  color: red;
 }
 
 p{
@@ -24,10 +25,11 @@ p{
 
 #home {
   padding-top: 200px;
-  background-image: url("images/MountainClouds.jpg");
+  background-image: url("../images/MountainClouds.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 
 #aboutMe {
     position: relative;
@@ -40,7 +42,7 @@ p{
     content: "";
     z-index: -1;
     position: absolute;
-    opacity: 0.2;
+    opacity: 0.15;
     top: 0; bottom: 0; left: 0; right: 0;
     background-size: cover;
 }
@@ -57,14 +59,14 @@ p{
     content: "";
     z-index: -1;
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.1;
     top: 0; bottom: 0; left: 0; right: 0;
     background-size: cover;
 }
 
 
 #contact {
-  background-image: url("images/photoContact.jpg");
+  background-image: url("../images/photoContact.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -82,7 +84,7 @@ section{
 }
 
 .profilepic {
-  border-radius: 80%;
+  border-radius: 60%;
   max-height: 360px;
 }
 
@@ -100,16 +102,14 @@ section{
 }
 
 .contactIcon {
-  height: 100px;
+  height: 140px;
 }
 
-.card-body {
-  background-color: none;
-  margin-bottom: 40px;
+.portfolioIcon {
+  height: 80px;
 }
 
 .col-md-3 {
-  background-color: rgb(238, 238, 238);
   margin: 10px;
 }
 
@@ -167,12 +167,12 @@ mobile friendly
   }
 
   .profilepic {
-    max-height: 225px;
+    max-height: 425px;
   }
 }
 
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 860px) {
   #home{
     padding-top: 100px !important;
   }
