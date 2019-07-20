@@ -183,13 +183,14 @@ mobile friendly
 
   #portfolio{
     padding-top: 50px !important;
-    height: 4000px !important;
+    height: 2800px !important;
   }
   
   #contact{
     text-align: center !important;
     padding-left: 90px !important;
     padding-top: 70px !important;
+    height: 800px;
   }
 
   .contact-font{
@@ -197,6 +198,11 @@ mobile friendly
   }
 
   .profilepic {
-    max-height: 125px;
+    max-height: 325px;
   }
+
+  h2{
+    font-size: 30px !important;
+  }
+
   }
